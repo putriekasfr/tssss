@@ -1,0 +1,10 @@
+jenis,kategori,WBC,RBC,Platelets,total,% dalam jenis
+FN,bertumpuk,0,3,0,3,6.5
+FN,salah kelas,0,0,1,1,2.2
+FN,terlewat lain,0,9,1,10,21.7
+FN,terpotong tepi,0,32,0,32,69.6
+FP,deteksi ganda,0,8,0,8,8.4
+FP,latar/artefak,0,36,1,37,38.9
+FP,lokalisasi buruk,0,47,0,47,49.5
+FP,partikel kecil,0,0,1,1,1.1
+FP,salah kelas,1,1,0,2,2.1

@@ -1,0 +1,19 @@
+{
+ "run_id": "R08",
+ "owner": "Tsabita",
+ "model": "yolov8s",
+ "factor": "multi-seed",
+ "value": "R04 seed 2024",
+ "seed": 2024,
+ "status": "done",
+ "date": "2026-11-23 08:05",
+ "gpu": "Tesla T4",
+ "gpu_minutes": 24.5,
+ "val_mAP50": 0.9782,
+ "val_mAP50_95": 0.8516,
+ "val_AP_small": 0.7554,
+ "val_MAE_WBC": 0.008,
+ "val_MAE_RBC": 0.972,
+ "val_MAE_Platelets": 0.071,
+ "notes": "tau={'Platelets': 0.4, 'RBC': 0.7, 'WBC': 0.8}; params=11.14M"
+}

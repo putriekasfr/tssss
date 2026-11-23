@@ -1,0 +1,6 @@
+# R04 - Ablasi A1 (Tsabita, menu T1-A): resolusi masukan 640 -> 832. Hanya imgsz yang berubah dari R01.
+inherits: R01
+run_id: R04
+factor: A1 resolusi
+value: imgsz 832
+imgsz: 832

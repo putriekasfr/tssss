@@ -1,0 +1,32 @@
+# R02 - Baseline two-stage (pemilik: Putri)
+run_id: R02
+owner: Putri
+model: fasterrcnn_resnet50_fpn
+paradigm: two-stage
+factor: baseline
+value: anchor default, fine-tune penuh
+pretrained: COCO_V1           # torchvision FasterRCNN_ResNet50_FPN_Weights.COCO_V1
+seed: 42
+epochs: 12                    # HEMAT: jadwal standar "1x" Detectron/torchvision (proposal awal 24)
+batch: 4
+min_size: 640                 # sisi pendek saat inferensi (setara imgsz 640)
+train_min_sizes: [512, 544, 576, 608, 640, 672, 704, 736, 768]   # skala acak ~+-20%
+max_size: 1066
+optimizer: SGD
+lr: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+lr_steps: [8, 11]             # lr x0.1 pada epoch 8 dan 11
+warmup_iters: 300
+eval_from: 6                  # HEMAT: evaluasi val (untuk best.pt) mulai epoch 6; epoch awal tidak dievaluasi
+amp: true
+trainable_backbone_layers: 5  # 5 = fine-tune penuh; 0 = backbone beku (R06)
+anchor_sizes: [32, 64, 128, 256, 512]      # bawaan torchvision, satu ukuran per level FPN
+augment:
+  hflip: 0.5
+  vflip: 0.5
+  hue: 0.01
+predict:
+  conf: 0.001
+  iou_nms: 0.5                # bawaan torchvision
+  max_det: 300

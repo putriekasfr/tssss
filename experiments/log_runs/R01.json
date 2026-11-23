@@ -1,0 +1,19 @@
+{
+ "run_id": "R01",
+ "owner": "Tsabita",
+ "model": "yolov8s",
+ "factor": "baseline",
+ "value": "imgsz 640",
+ "seed": 42,
+ "status": "done",
+ "date": "2026-11-23 02:58",
+ "gpu": "Tesla T4",
+ "gpu_minutes": 17.7,
+ "val_mAP50": 0.9715,
+ "val_mAP50_95": 0.8478,
+ "val_AP_small": 0.7274,
+ "val_MAE_WBC": 0.008,
+ "val_MAE_RBC": 0.96,
+ "val_MAE_Platelets": 0.075,
+ "notes": "tau={'Platelets': 0.75, 'RBC': 0.7, 'WBC': 0.7}; params=11.14M"
+}

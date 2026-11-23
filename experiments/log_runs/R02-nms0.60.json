@@ -1,0 +1,19 @@
+{
+ "run_id": "R02-nms0.60",
+ "owner": "Putri",
+ "model": "fasterrcnn_resnet50_fpn",
+ "factor": "A2 NMS IoU",
+ "value": "R02 · NMS IoU 0.60",
+ "seed": 42,
+ "status": "done",
+ "date": "2026-11-23 06:57",
+ "gpu": "Tesla T4",
+ "gpu_minutes": 0.3,
+ "val_mAP50": 0.9807,
+ "val_mAP50_95": 0.8243,
+ "val_AP_small": 0.7269,
+ "val_MAE_WBC": 0.012,
+ "val_MAE_RBC": 0.794,
+ "val_MAE_Platelets": 0.048,
+ "notes": "tau={'Platelets': 0.9, 'RBC': 0.8, 'WBC': 0.35}; bobot R02; prediksi ulang tanpa latih"
+}

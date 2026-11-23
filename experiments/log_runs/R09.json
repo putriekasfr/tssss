@@ -1,0 +1,19 @@
+{
+ "run_id": "R09",
+ "owner": "Putri",
+ "model": "fasterrcnn_resnet50_fpn",
+ "factor": "multi-seed",
+ "value": "R02 seed 123",
+ "seed": 123,
+ "status": "done",
+ "date": "2026-11-23 08:31",
+ "gpu": "Tesla T4",
+ "gpu_minutes": 25.1,
+ "val_mAP50": 0.9832,
+ "val_mAP50_95": 0.8331,
+ "val_AP_small": 0.7262,
+ "val_MAE_WBC": 0.012,
+ "val_MAE_RBC": 0.766,
+ "val_MAE_Platelets": 0.048,
+ "notes": "tau={'Platelets': 0.85, 'RBC': 0.7, 'WBC': 0.5}; params=41.31M; best_epoch=10"
+}

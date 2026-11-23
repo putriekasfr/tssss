@@ -1,0 +1,14 @@
+# Daftar pustaka proyek. Di Colab, setiap notebook hanya memasang yang belum tersedia
+# (lihat variabel PIP_PAKET di sel Setup); torch/torchvision memakai versi bawaan Colab.
+# Versi persis tiap run tercatat otomatis di experiments/env/<RUN>.txt.
+torch
+torchvision
+ultralytics
+pycocotools
+numpy
+pandas
+scipy
+matplotlib
+pillow
+pyyaml
+openpyxl

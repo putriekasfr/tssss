@@ -1,0 +1,11 @@
+{
+ "latensi_ms_mean": 20.058300559903728,
+ "latensi_ms_std": 1.1322080542911832,
+ "latensi_ms_median": 19.93574849984725,
+ "n_citra": 50,
+ "warmup": 10,
+ "parameter_juta": 11.136761,
+ "run": "R04",
+ "model": "YOLOv8s",
+ "gpu": "Tesla T4"
+}

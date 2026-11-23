@@ -1,0 +1,7 @@
+# R07 - perbandingan utama 3 seed: konfigurasi terbaik di validasi = R04
+inherits: R04
+run_id: R07
+owner: Tsabita
+factor: multi-seed
+value: R04 seed 123
+seed: 123

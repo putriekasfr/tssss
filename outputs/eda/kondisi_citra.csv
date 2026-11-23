@@ -1,0 +1,4 @@
+split,citra,RBC > 15 (padat),tanpa platelet,tanpa WBC,WBC > 1
+train,882,204,637,3,24
+val,252,69,188,2,7
+test,126,34,92,0,5

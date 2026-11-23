@@ -1,0 +1,7 @@
+# R06 - Strategi fine-tuning (Putri): backbone beku. Hanya trainable_backbone_layers berubah dari R02.
+inherits: R02
+run_id: R06
+owner: Putri
+factor: strategi fine-tuning
+value: backbone beku
+trainable_backbone_layers: 0

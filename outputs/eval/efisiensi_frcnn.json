@@ -1,0 +1,11 @@
+{
+ "latensi_ms_mean": 66.29101609993086,
+ "latensi_ms_std": 6.0574836674555215,
+ "latensi_ms_median": 64.45520400029636,
+ "n_citra": 50,
+ "warmup": 10,
+ "parameter_juta": 41.309411,
+ "run": "R02",
+ "model": "Faster R-CNN",
+ "gpu": "Tesla T4"
+}

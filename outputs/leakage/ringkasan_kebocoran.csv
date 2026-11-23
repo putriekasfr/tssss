@@ -1,0 +1,7 @@
+pasangan,Hamming≤0,Hamming≤4,Hamming≤8
+train–val,0,1,2
+train–test,0,0,0
+val–test,0,0,0
+train–train (di dalam),0,2,7
+val–val (di dalam),0,0,0
+test–test (di dalam),0,0,0

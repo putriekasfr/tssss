@@ -1,0 +1,7 @@
+# R08 - perbandingan utama 3 seed: konfigurasi terbaik di validasi = R04
+inherits: R04
+run_id: R08
+owner: Tsabita
+factor: multi-seed
+value: R04 seed 2024
+seed: 2024

@@ -1,0 +1,19 @@
+{
+ "run_id": "R01-nms0.60",
+ "owner": "Putri",
+ "model": "yolov8s",
+ "factor": "A2 NMS IoU",
+ "value": "R01 · NMS IoU 0.60",
+ "seed": 42,
+ "status": "done",
+ "date": "2026-11-23 06:56",
+ "gpu": "Tesla T4",
+ "gpu_minutes": 0.1,
+ "val_mAP50": 0.9718,
+ "val_mAP50_95": 0.8476,
+ "val_AP_small": 0.7283,
+ "val_MAE_WBC": 0.008,
+ "val_MAE_RBC": 0.964,
+ "val_MAE_Platelets": 0.075,
+ "notes": "tau={'Platelets': 0.75, 'RBC': 0.7, 'WBC': 0.7}; bobot R01; prediksi ulang tanpa latih"
+}

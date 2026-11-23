@@ -1,0 +1,6 @@
+source,train,val,test,Total
+BCCD,101,41,18,160
+BCDD,70,16,14,100
+PBC,353,97,50,500
+Raabin-WBC,358,98,44,500
+Total,882,252,126,1260

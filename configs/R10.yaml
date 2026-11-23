@@ -1,0 +1,7 @@
+# R10 - perbandingan utama 3 seed: konfigurasi terbaik di validasi = R02
+inherits: R02
+run_id: R10
+owner: Putri
+factor: multi-seed
+value: R02 seed 2024
+seed: 2024

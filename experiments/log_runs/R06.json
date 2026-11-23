@@ -1,0 +1,19 @@
+{
+ "run_id": "R06",
+ "owner": "Putri",
+ "model": "fasterrcnn_resnet50_fpn",
+ "factor": "strategi fine-tuning",
+ "value": "backbone beku",
+ "seed": 42,
+ "status": "done",
+ "date": "2026-11-23 07:15",
+ "gpu": "Tesla T4",
+ "gpu_minutes": 17.3,
+ "val_mAP50": 0.9819,
+ "val_mAP50_95": 0.7857,
+ "val_AP_small": 0.6872,
+ "val_MAE_WBC": 0.024,
+ "val_MAE_RBC": 0.766,
+ "val_MAE_Platelets": 0.056,
+ "notes": "tau={'Platelets': 0.8, 'RBC': 0.8, 'WBC': 0.8}; params=41.31M; best_epoch=11"
+}

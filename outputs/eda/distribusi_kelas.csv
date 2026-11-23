@@ -1,0 +1,5 @@
+cls,train,val,test,Total,% dari total kotak
+WBC,903,257,131,1291,7.1
+RBC,11206,3368,1688,16262,89.9
+Platelets,382,112,49,543,3.0
+Total,12491,3737,1868,18096,100.0

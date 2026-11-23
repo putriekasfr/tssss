@@ -1,0 +1,6 @@
+split,stem,baris_asli,baris_unik,duplikat,dup_WBC,dup_RBC,dup_Platelets
+train,92129d1652e75c3892beb376df57d274,13,12,1,0,1,0
+train,a8581e04ac765bd3ad658cf8e530a6ea,18,17,1,0,1,0
+train,c255521a08b75da09373db44e7f099c5,32,15,17,5,12,0
+val,0ac132c270355979b686c0801e558849,31,16,15,0,15,0
+test,1299047edeb15e2581d9680aaa667d5d,26,13,13,2,11,0
